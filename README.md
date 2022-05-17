@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# DTN Frontend/Fullstack Development Challenge
 
-## Getting Started
+We would like you to build a React application utilizing Node.js and Express to create the supporting API. This may sound like a lot, but we are using a boilerplate project to get you up and running. If you encounter any issues while working through this challenge please share with us what they were and how you overcame them or worked around them. The requirements for the application are listed below in the Technical Requirements section.  There are also stretch goals if you are interested.
 
-First, run the development server:
+This boilerplate is built using the following libraries:
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+* React + Redux
+* Webpack
+* Styled Components
+* Express
+* Webpack
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Technical Requirements
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+* Show a list of students with the following information:
+    * First Name
+    * Last Name
+    * Email
+    * Age
+    * Grade (1st, 2nd, 3rd, etc...)
+* The user should be able to add a new student
+* The user should be able to edit an existing student record
+* The user should be able to delete a student
+* Before a student can be removed, a confirmation dialog should be displayed that asks the user if they really want to delete the student
+* Create a mixin for rem font sizes, and apply it to all headings in correct scss partial.
+* Typescript should be used throughout
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Stretch Goals
 
-## Learn More
+* Demonstrate unit tests on your API controllers and/or React components
+* Add paging to the student list
+* Add filtering to the student list
+* Allow sorting by column on the student list
+* Show form validation client side making student first and last name required
+* Implement TailwindCSS for styling
+* Implement a MongoDB database to store your student records
 
-To learn more about Next.js, take a look at the following resources:
+### Configuration
+- **Platform:** node
+- **Framework**: express
+- **JavaScript Framework**: react
+- **Build Tool**: webpack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### License
+The MIT License (MIT)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Copyright (c) 2019 Maximilian Stoiber
 
-## Deploy on Vercel
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
